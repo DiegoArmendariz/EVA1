@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="diegd"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-16 12:45:26 p. m."/>
+        <attribute name="created" value="ZGllZ2Q7TEFQVE9QLVJSNFA1RFRLOzIwMjQtMDItMTU7MDM6MTQ6MzUgcC4gbS47MzA1OA=="/>
+        <attribute name="edited" value="ZGllZ2Q7TEFQVE9QLVJSNFA1RFRLOzIwMjQtMDItMTY7MTI6NDU6MjYgcC4gbS47MzszMTcz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="edad" type="Integer" array="False" size=""/>
+            <assign variable="edad" expression="19"/>
+            <output expression="&quot;Tu edad es&quot;" newline="True"/>
+            <output expression="edad" newline="True"/>
+            <declare name="nombre" type="String" array="False" size=""/>
+            <assign variable="nombre" expression="&quot;Diego Armendariz Lopez&quot;"/>
+            <output expression="&quot;nombre&quot;" newline="True"/>
+            <output expression="nombre" newline="True"/>
+            <declare name="Carrera" type="String" array="False" size=""/>
+            <assign variable="Carrera" expression="&quot;Ingeneria de sistema&quot;"/>
+            <output expression="&quot;Carrera&quot;" newline="True"/>
+            <output expression="Carrera" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
